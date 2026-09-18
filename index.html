@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SecureKey 24/7 | Residential Locksmith & Smart Lock Upgrade Service</title>
+<meta name="description" content="24/7 residential locksmith, lock rekeying, smart lock installation, safe opening and home security services.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230b1728'/%3E%3Cpath fill='%2342b8ff' d='M32 8 51 16v15c0 13-8 21-19 25-11-4-19-12-19-25V16l19-8Z'/%3E%3Cpath fill='white' d='M32 19a8 8 0 0 0-8 8v5h-3v13h22V32h-3v-5a8 8 0 0 0-8-8Zm-4 13v-5a4 4 0 0 1 8 0v5h-8Z'/%3E%3C/svg%3E">
+
+<style>
+:root{
+--bg:#f5f8fc;--surface:#fff;--surface2:#edf3f8;--text:#101828;--muted:#667085;
+--border:#d8e1eb;--primary:#0874c9;--primary2:#16a7d8;--dark:#071522;
+--success:#087443;--shadow:0 18px 55px rgba(16,24,40,.1);--radius:20px;--max:1180px;
+}
+html.dark{
+--bg:#07111d;--surface:#0d1c2d;--surface2:#12263a;--text:#f5f9ff;--muted:#aab8c8;
+--border:#263c53;--primary:#42b8ff;--primary2:#54d5ef;--dark:#030b14;
+--shadow:0 20px 60px rgba(0,0,0,.3)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;padding-top:114px;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6;overflow-x:clip}
+body.modal-open{overflow:hidden}
+img{display:block;width:100%;max-width:100%}
+button,input,select,textarea{font:inherit}
+button,a{-webkit-tap-highlight-color:transparent}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid rgba(66,184,255,.55);outline-offset:3px}
+.container{width:min(calc(100% - 40px),var(--max));margin:auto}
+.section{padding:86px 0}
+.section.alt{background:var(--surface2)}
+.section-head{max-width:720px;text-align:center;margin:0 auto 42px}
+.eyebrow{display:inline-flex;align-items:center;gap:7px;margin-bottom:12px;color:var(--primary);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+h1,h2,h3,h4{margin:0;font-family:Manrope,Inter,sans-serif;line-height:1.12;letter-spacing:-.025em}
+h1{font-size:clamp(2.25rem,5vw,4.7rem)}
+h2{font-size:clamp(1.85rem,3vw,3rem)}
+h3{font-size:clamp(1.12rem,1.8vw,1.42rem)}
+p{margin:0}.muted{color:var(--muted)}
+
+.topbar{background:#06101b;color:#dce9f5;font-size:12px}
+.topbar-inner{min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.topbar a{color:white;font-weight:800}.top-right{display:flex;gap:18px}
+
+header{position:fixed!important;top:0!important;left:0!important;right:0!important;width:100%!important;z-index:100000!important;min-height:78px;background:var(--surface)!important;border-bottom:1px solid var(--border)!important;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.nav-inner{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.brand{display:inline-flex;align-items:center;gap:10px;flex:0 0 auto}
+.brand-mark{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:linear-gradient(135deg,#0874c9,#21b8dc);color:#fff;box-shadow:0 8px 22px rgba(8,116,201,.25)}
+.brand-text{display:grid;line-height:1.05}.brand-text strong{font-family:Manrope;font-size:16px;font-weight:800}.brand-text span{margin-top:4px;color:var(--muted);font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.desktop-nav{display:flex;align-items:center;justify-content:flex-end;gap:3px}
+.desktop-nav>a:not(.nav-btn){padding:9px 8px;color:var(--muted);font-size:12px;font-weight:700;border-radius:9px}
+.desktop-nav>a:not(.nav-btn):hover,.desktop-nav>a.active{background:var(--surface2);color:var(--primary)}
+.nav-btn{min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:0 13px;margin-left:5px;border-radius:10px;font-size:12px;font-weight:800;white-space:nowrap;transition:.2s}
+.nav-primary{background:var(--primary);color:#fff}.nav-secondary{border:1px solid var(--primary);color:var(--primary)}.nav-contact{background:#071522;color:#fff}
+html.dark .nav-contact{background:#f4f8fc;color:#071522}
+.nav-btn:hover{transform:translateY(-1px)}
+.theme-toggle,.mobile-toggle{width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--text);position:relative;z-index:100001}
+.mobile-toggle{display:none}
+body.menu-open,html.menu-open{overflow:hidden!important;touch-action:none!important}
+.mobile-menu{display:none;position:fixed;top:114px;left:0;right:0;bottom:0;z-index:99990;padding:20px 22px 28px;background:var(--surface);box-shadow:0 30px 70px rgba(0,0,0,.35);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+.mobile-menu.open{display:flex;flex-direction:column}
+.mobile-menu>a{min-height:48px;display:flex;align-items:center;padding:0 16px;border-bottom:1px solid var(--border);font-size:15px;font-weight:700;color:var(--text);border-radius:12px;margin-bottom:6px;transition:all .2s ease}
+.mobile-menu>a:hover{background:color-mix(in srgb,var(--primary) 10%,var(--surface));color:var(--primary);padding-left:20px}
+.mobile-menu>a.active{background:linear-gradient(135deg,#0874c9,#16a7d8)!important;color:#ffffff!important;font-weight:800!important;padding-left:20px!important;border-radius:12px;box-shadow:0 6px 18px rgba(8,116,201,.32);border-bottom-color:transparent!important}
+html.dark .mobile-menu>a.active{background:linear-gradient(135deg,#16a7d8,#42b8ff)!important;color:#030b14!important;box-shadow:0 6px 20px rgba(66,184,255,.35)}
+.mobile-actions{display:grid;gap:10px;padding-top:18px;margin-top:auto}
+.mobile-action{min-height:46px;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:11px;font-size:13px;font-weight:800}
+
+.hero{position:relative;min-height:690px;display:flex;align-items:center;isolation:isolate;color:#fff;overflow:hidden;background:#071522}
+.hero-image{position:absolute;inset:0;z-index:-2;height:100%;object-fit:cover;object-position:center}
+.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(2,12,24,.93),rgba(2,12,24,.72) 48%,rgba(2,12,24,.35)),linear-gradient(0deg,rgba(2,12,24,.45),transparent)}
+.hero-content{max-width:780px;padding:90px 0}.hero .eyebrow{color:#7bdcff}
+.hero p{max-width:680px;margin-top:20px;color:#e2eef7;font-size:clamp(1rem,1.7vw,1.2rem)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:0 19px;border:1px solid transparent;border-radius:11px;font-size:14px;font-weight:800;transition:.2s}
+.btn:hover{transform:translateY(-2px)}.btn-primary{background:#16a7d8;color:#fff}.btn-primary:hover{background:#108fba}.btn-light{background:#fff;color:#09233b}.btn-outline-light{border-color:rgba(255,255,255,.65);background:rgba(255,255,255,.08);color:#fff}
+.trust-strip{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.trust-pill{display:flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid rgba(255,255,255,.22);border-radius:999px;background:rgba(255,255,255,.08);font-size:11px;font-weight:700}
+
+.grid{display:grid;gap:22px}.grid-2{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:repeat(3,1fr)}
+.card{min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:0 8px 28px rgba(16,24,40,.045);overflow:hidden}
+.card-body{padding:24px}.card p{margin-top:9px;color:var(--muted);font-size:13px}
+.card-image{aspect-ratio:16/10;object-fit:cover}
+.text-link{display:inline-flex;align-items:center;gap:7px;margin-top:17px;color:var(--primary);font-size:13px;font-weight:800}
+
+.image-card{overflow:hidden}.image-card img{aspect-ratio:16/10;object-fit:cover}
+.image-card .card-body{min-height:180px;display:flex;flex-direction:column}.image-card .text-link{margin-top:auto}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}
+.split>img{aspect-ratio:4/3;object-fit:cover;border-radius:22px;box-shadow:var(--shadow)}
+.check-list{display:grid;gap:12px;margin:23px 0 0;padding:0;list-style:none}
+.check-list li{display:flex;gap:10px;align-items:flex-start;color:var(--muted);font-size:13px}
+.check-list i{color:var(--success);margin-top:4px}
+
+.section-photo{border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}
+.section-photo img{aspect-ratio:5/4;object-fit:cover}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}
+.step{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:18px}
+.step img{aspect-ratio:16/9;object-fit:cover}.step-body{padding:20px}.step-num{width:32px;height:32px;display:grid;place-items:center;margin-bottom:13px;border-radius:50%;background:var(--primary);color:#fff;font-size:12px;font-weight:800}
+.step p{margin-top:8px;color:var(--muted);font-size:12px}
+
+.image-band{position:relative;overflow:hidden;min-height:360px;border-radius:25px;color:#fff}
+.image-band>img{position:absolute;inset:0;height:100%;object-fit:cover}
+.image-band:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,12,24,.92),rgba(2,12,24,.48))}
+.band-content{position:relative;z-index:2;min-height:360px;display:flex;align-items:center;padding:50px}
+.band-content>div{max-width:690px}.band-content p{margin-top:12px;color:#dbe8f3;font-size:14px}
+
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.review{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:18px}
+.review img{aspect-ratio:16/9;object-fit:cover}.review-body{padding:22px}.stars{color:#e29a15;letter-spacing:2px;font-size:13px}.review p{margin-top:13px;color:var(--muted);font-size:13px}.reviewer{display:flex;gap:10px;align-items:center;margin-top:18px}.avatar{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:var(--surface2);color:var(--primary);font-size:12px;font-weight:800}.reviewer strong{display:block;font-size:12px}.reviewer span{color:var(--muted);font-size:11px}
+
+.hero-2{min-height:570px}.hero-2:after{background:linear-gradient(90deg,rgba(2,12,24,.9),rgba(2,12,24,.65) 55%,rgba(2,12,24,.3))}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;margin-bottom:15px;padding:8px 12px;border:1px solid rgba(255,255,255,.25);border-radius:999px;background:rgba(255,255,255,.09);font-size:11px;font-weight:800}
+
+.coverage{display:grid;grid-template-columns:.9fr 1.1fr;gap:38px;align-items:stretch}
+.coverage>img{width:100%;height:100%;min-height:400px;object-fit:cover;border-radius:22px}
+.coverage-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:23px}
+.coverage-tile{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:17px}
+.coverage-tile img{aspect-ratio:16/9;object-fit:cover}.coverage-tile div{padding:16px}.coverage-tile strong{display:block;font-size:13px}.coverage-tile span{display:block;margin-top:4px;color:var(--muted);font-size:11px}
+
+.benefits{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:24px}
+.benefit{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:15px}.benefit img{aspect-ratio:16/8;object-fit:cover}.benefit div{padding:15px}.benefit strong{display:block;font-size:13px}.benefit span{display:block;margin-top:4px;color:var(--muted);font-size:11px}
+
+.score-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.score{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:20px}.score img{aspect-ratio:16/8;object-fit:cover}.score-body{padding:23px}.score-number{margin:9px 0;font-family:Manrope;font-size:40px;font-weight:800;color:var(--primary)}.meter{height:8px;border-radius:99px;background:var(--surface2);overflow:hidden}.meter span{display:block;height:100%;width:88%;border-radius:inherit;background:linear-gradient(90deg,#0874c9,#54d5ef)}
+
+.priority-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.priority{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:18px}.priority img{aspect-ratio:16/9;object-fit:cover}.priority-body{padding:21px}.priority-number{font-family:Manrope;font-size:29px;font-weight:800;color:var(--primary)}.priority p{margin-top:7px;color:var(--muted);font-size:12px}
+
+.cta{display:grid;grid-template-columns:1fr auto;align-items:center;gap:25px;padding:40px;border-radius:24px;background:linear-gradient(135deg,#0874c9,#087c9d);color:#fff}.cta p{margin-top:8px;color:#dff5ff;font-size:13px}
+
+.page-hero{position:relative;min-height:330px;display:flex;align-items:center;overflow:hidden;isolation:isolate;color:#fff}
+.page-hero>img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover}
+.page-hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(2,12,24,.9),rgba(2,12,24,.5))}
+.page-hero-content{max-width:760px}.page-hero h1{font-size:clamp(2rem,4vw,3.5rem)}.page-hero p{margin-top:12px;color:#dcebf6;font-size:14px}
+
+.service-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.service{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:20px}.service img{aspect-ratio:16/9;object-fit:cover}.service-body{min-height:205px;padding:23px;display:flex;flex-direction:column}.service-body p{margin-top:8px;color:var(--muted);font-size:13px}.service-body .text-link{margin-top:auto}
+
+.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.process{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:18px}.process img{aspect-ratio:16/9;object-fit:cover}.process-body{padding:22px}.process-number{width:34px;height:34px;display:grid;place-items:center;margin-bottom:13px;border-radius:50%;background:var(--primary);color:#fff;font-size:12px;font-weight:800}.process p{margin-top:7px;color:var(--muted);font-size:13px}
+
+.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.price-card{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:20px}.price-card>img{aspect-ratio:16/9;object-fit:cover}.price-body{padding:25px}.price-card.featured{border-color:var(--primary);box-shadow:var(--shadow)}.price{margin:12px 0 4px;font-family:Manrope;font-size:34px;font-weight:800}.price small{font-family:Inter;font-size:11px;color:var(--muted);font-weight:500}.price-list{display:grid;gap:8px;margin:19px 0;padding:0;list-style:none;color:var(--muted);font-size:12px}.price-list li{display:flex;gap:7px}.price-list i{color:var(--success);margin-top:4px}.pricing-note{margin-top:22px;padding:16px;border-left:4px solid var(--primary);border-radius:9px;background:var(--surface2);color:var(--muted);font-size:12px}
+
+.factor-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.factor{display:grid;grid-template-columns:145px 1fr;overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:17px}.factor img{height:100%;min-height:150px;object-fit:cover}.factor-body{padding:20px}.factor p{margin-top:7px;color:var(--muted);font-size:12px}
+
+.story{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}.story img{aspect-ratio:4/3;object-fit:cover;border-radius:22px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.stat{overflow:hidden;text-align:center;background:var(--surface);border:1px solid var(--border);border-radius:16px}.stat img{aspect-ratio:16/8;object-fit:cover}.stat-body{padding:17px}.stat strong{display:block;color:var(--primary);font-family:Manrope;font-size:27px}.stat span{display:block;margin-top:3px;color:var(--muted);font-size:11px}.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.principle{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:18px}.principle img{aspect-ratio:16/9;object-fit:cover}.principle-body{padding:21px}.principle p{margin-top:7px;color:var(--muted);font-size:12px}
+
+.contact-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:start}.contact-info{display:grid;gap:14px}.contact-card{padding:20px;background:var(--surface);border:1px solid var(--border);border-radius:16px}.contact-card i{width:36px;height:36px;display:grid;place-items:center;margin-bottom:10px;border-radius:9px;background:rgba(8,116,201,.1);color:var(--primary)}.contact-card strong{display:block;font-size:13px}.contact-card span{display:block;margin-top:3px;color:var(--muted);font-size:12px}.emergency{padding:24px;border-radius:18px;background:#071522;color:#fff}.emergency p{margin-top:6px;color:#c9d9e6;font-size:12px}.contact-form{padding:29px;background:var(--surface);border:1px solid var(--border);border-radius:20px;box-shadow:0 8px 28px rgba(16,24,40,.045)}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:21px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}label{font-size:12px;font-weight:700}input,select,textarea{width:100%;min-height:45px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:var(--bg);color:var(--text);outline:none}textarea{min-height:120px;resize:vertical}input:focus,select:focus,textarea:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(8,116,201,.1)}.form-help{color:var(--muted);font-size:11px}.form-submit{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:17px}.form-message{display:none;margin-top:14px;padding:12px;border-radius:9px;background:rgba(8,116,67,.1);color:var(--success);font-size:12px;font-weight:700}.form-message.show{display:block}
+
+.auth-page{min-height:calc(100vh - 78px);padding:42px 0;display:flex;align-items:center}.auth-shell{width:min(100%,950px);margin:auto;display:grid;grid-template-columns:.95fr 1.05fr;overflow:hidden;border:1px solid var(--border);border-radius:24px;background:var(--surface);box-shadow:var(--shadow)}.auth-visual{position:relative;min-height:560px;overflow:hidden;color:#fff}.auth-visual img{position:absolute;inset:0;height:100%;object-fit:cover}.auth-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,13,26,.15),rgba(3,13,26,.92))}.auth-visual-content{position:absolute;z-index:2;right:28px;bottom:28px;left:28px}.auth-visual-content p{margin-top:7px;color:#dceaf6;font-size:12px}.auth-form-wrap{padding:30px 34px;display:flex;flex-direction:column;justify-content:center}.auth-logo{display:flex;justify-content:center;margin-bottom:19px}.auth-heading{text-align:center}.auth-heading h1{font-size:clamp(1.7rem,3vw,2.25rem)}.auth-heading p{margin:8px auto 20px;max-width:400px;color:var(--muted);font-size:12px}.social-btn{width:100%;min-height:45px;display:flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--text);font-size:12px;font-weight:700}.divider{display:flex;align-items:center;gap:10px;margin:16px 0;color:var(--muted);font-size:10px;text-transform:uppercase}.divider:before,.divider:after{content:"";flex:1;height:1px;background:var(--border)}.auth-form{display:grid;gap:13px}.password-wrap{position:relative}.password-wrap input{padding-right:43px}.password-toggle{position:absolute;top:0;right:0;width:43px;height:45px;border:0;background:transparent;color:var(--muted)}.auth-row{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:11px}.remember{display:flex;align-items:center;gap:6px;color:var(--muted)}.remember input{width:15px;min-height:15px;accent-color:var(--primary)}.auth-link{color:var(--primary);font-weight:800}.auth-submit{width:100%}.auth-footer{margin-top:15px;text-align:center;color:var(--muted);font-size:11px}
+
+footer{padding:58px 0 20px;background:#06101b;color:#d8e5f1}.footer-grid{display:grid;grid-template-columns:1.25fr repeat(3,0.85fr) 1.25fr;gap:26px;padding-bottom:36px}.footer-brand p{max-width:330px;margin-top:13px;color:#9eb1c3;font-size:12px}.footer-title{margin-bottom:13px;color:#fff;font-size:12px;font-weight:800}.footer-links{display:grid;gap:8px}.footer-links a{color:#aebfd0;font-size:11px}.footer-links a:hover{color:#fff}.footer-emergency{margin-top:15px;color:#7dd8ff;font-size:12px;font-weight:800}.footer-socials{display:flex;align-items:center;gap:10px;margin-top:16px}.footer-socials a{width:36px;height:36px;display:grid;place-items:center;border-radius:10px;background:rgba(255,255,255,.08);color:#9eb1c3;border:1px solid rgba(255,255,255,.12);transition:.25s ease;font-size:14px}.footer-socials a:hover{background:var(--primary);color:#fff;border-color:var(--primary);transform:translateY(-3px)}.footer-newsletter{display:flex;flex-direction:column}.newsletter-form{margin-top:10px}.newsletter-input-wrap{display:flex;gap:8px}.newsletter-input{flex:1;min-height:42px;padding:8px 12px;border:1px solid rgba(255,255,255,.18);border-radius:10px;background:rgba(255,255,255,.06);color:#fff;font-size:12px;outline:none}.newsletter-input::placeholder{color:#7a8e9e}.newsletter-input:focus{border-color:var(--primary);background:rgba(255,255,255,.12)}.newsletter-btn{min-height:42px;padding:0 14px;border:none;border-radius:10px;background:var(--primary);color:#fff;font-size:13px;font-weight:700;transition:.2s;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.newsletter-btn:hover{background:var(--primary2);transform:translateY(-1px)}.footer-bottom{display:flex;justify-content:space-between;gap:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);color:#8fa3b5;font-size:10px}
+
+.view{display:none}.view.active{display:block}.toast{position:fixed;right:20px;bottom:20px;z-index:4000;max-width:390px;padding:13px 15px;border-radius:11px;background:#071522;color:#fff;box-shadow:var(--shadow);font-size:12px;font-weight:700;opacity:0;transform:translateY(20px);pointer-events:none;transition:.25s}.toast.show{opacity:1;transform:translateY(0)}
+.modal{position:fixed;inset:0;z-index:3000;display:none;place-items:center;padding:20px;background:rgba(2,8,16,.7)}.modal.show{display:grid}.modal-card{width:min(100%,500px);padding:28px;border-radius:20px;background:var(--surface);color:var(--text);box-shadow:0 25px 80px rgba(0,0,0,.35)}.modal-close{float:right;width:37px;height:37px;border:1px solid var(--border);border-radius:99px;background:var(--surface);color:var(--text)}.modal-card h2{clear:both;padding-top:12px;font-size:1.8rem}.modal-card p{margin-top:8px;color:var(--muted);font-size:12px}
+
+@media(max-width:1100px){
+.desktop-nav{display:none!important}.mobile-toggle{display:grid}
+.split,.coverage,.story,.contact-layout{grid-template-columns:1fr}.coverage>img{min-height:350px}.footer-grid{grid-template-columns:1.3fr repeat(2,1fr) 1.3fr}
+}
+@media(max-width:900px){
+.section{padding:68px 0}.grid-3,.reviews,.priority-grid,.price-grid,.principles{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}.factor-grid{grid-template-columns:1fr}.auth-shell{grid-template-columns:1fr;width:min(100%,620px)}.auth-visual{min-height:230px;max-height:250px}.auth-form-wrap{padding:28px}
+}
+@media(max-width:700px){
+.topbar-inner{justify-content:center;min-height:33px}.top-right{display:none}
+header,.nav-inner{min-height:68px}:root{--max:1180px}.hero{min-height:620px}.hero-content{padding:65px 0}.hero-actions{display:grid;grid-template-columns:1fr}.hero-actions .btn{width:100%}.trust-strip{display:grid;grid-template-columns:1fr}.trust-pill{justify-content:center}
+.grid-3,.grid-2,.reviews,.priority-grid,.price-grid,.principles,.process-grid,.steps,.coverage-grid,.benefits,.score-grid,.service-grid,.factor-grid,.stats{grid-template-columns:1fr}.coverage>img{min-height:300px}.cta{grid-template-columns:1fr;padding:30px 24px}.cta .btn{width:100%}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.form-submit{flex-direction:column;align-items:stretch}.form-submit .btn{width:100%}.footer-grid{grid-template-columns:1fr 1fr}.footer-brand,.footer-newsletter{grid-column:1/-1}.footer-bottom{flex-direction:column;text-align:center}.page-hero{min-height:290px}.auth-page{padding:25px 0}
+}
+@media(max-width:480px){
+.container{width:min(calc(100% - 24px),var(--max))}.section{padding:55px 0}.brand-mark{width:38px;height:38px}.brand-text strong{font-size:14px}.brand-text span{display:none}.hero{min-height:625px}.hero h1{font-size:clamp(2rem,11vw,2.75rem)}.hero p{font-size:14px}.card-body,.step-body,.review-body,.priority-body,.process-body,.price-body,.factor-body{padding:20px}.section-photo img{aspect-ratio:4/3}.contact-form{padding:21px}.auth-shell{border-radius:18px}.auth-visual{min-height:190px;max-height:200px}.auth-form-wrap{padding:22px 18px}.auth-row{align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr}.footer-brand,.footer-newsletter{grid-column:auto}.factor{grid-template-columns:1fr}.factor img{min-height:180px}
+}
+@media(max-width:370px){.container{width:calc(100% - 20px)}h2{font-size:1.7rem}.mobile-menu{padding-inline:14px}.auth-form-wrap{padding-inline:15px}}
+@media(min-width:1600px){:root{--max:1240px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.001ms!important}}
+
+/* =========================================================
+   REQUESTED VISUAL UPDATES ONLY
+   ========================================================= */
+
+/* Exact 0.2mm space above the website header/topbar */
+.micro-space{
+  height:.2mm;
+  min-height:.2mm;
+  width:100%;
+}
+
+/* Reduce unused vertical space throughout all pages */
+.section{
+  padding:52px 0;
+}
+.section.alt{
+  padding-top:52px;
+  padding-bottom:52px;
+}
+.section-head{
+  margin-bottom:27px;
+}
+.hero-content{
+  padding:62px 0;
+}
+.hero{
+  min-height:600px;
+}
+.hero-2{
+  min-height:520px;
+}
+.page-hero{
+  min-height:270px;
+}
+.page-hero-content{
+  padding:42px 0;
+}
+.auth-page{
+  padding:25px 0;
+}
+footer{
+  padding:40px 0 16px;
+}
+.footer-grid{
+  padding-bottom:25px;
+}
+
+/* Navbar: Dark + RTL immediately to the left of the single Reach Us button */
+.nav-controls{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  margin-left:8px;
+}
+.nav-control-btn{
+  width:42px;
+  height:42px;
+  min-height:42px;
+  padding:0;
+  margin:0;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:var(--surface);
+  color:var(--text);
+  font-weight:800;
+  font-size:12px;
+}
+#rtlToggle{
+  width:auto;
+  min-width:44px;
+  padding:0 10px;
+  letter-spacing:.04em;
+}
+.nav-reach{
+  min-width:100px;
+  width:100px;
+  height:42px;
+  min-height:42px;
+  margin-left:0;
+  padding:0;
+  background:var(--primary);
+  color:#fff;
+  transition:.25s ease;
+}
+.nav-reach:hover{
+  background:var(--primary2);
+}
+.nav-reach.active,
+.mobile-action.nav-contact.active{
+  background:linear-gradient(135deg,#0874c9,#16a7d8)!important;
+  color:#fff!important;
+  box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 40%,transparent), 0 6px 18px rgba(8,116,201,.35)!important;
+  font-weight:800;
+  transform:translateY(-1px);
+}
+html.dark .nav-reach.active,
+html.dark .mobile-action.nav-contact.active{
+  background:linear-gradient(135deg,#16a7d8,#42b8ff)!important;
+  color:#030b14!important;
+  box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 50%,transparent), 0 6px 20px rgba(66,184,255,.4)!important;
+}
+.desktop-nav{
+  gap:3px;
+}
+.nav-btn,
+.theme-toggle,
+.mobile-toggle,
+.btn{
+  box-sizing:border-box;
+}
+
+/* Modern locksmith/key logo */
+.brand-mark{
+  width:44px;
+  height:44px;
+  border-radius:13px;
+  position:relative;
+  background:linear-gradient(135deg,#0874c9 0%,#16a7d8 55%,#38d6b0 100%);
+  box-shadow:0 9px 25px rgba(8,116,201,.24);
+  overflow:hidden;
+}
+.brand-mark:before{
+  content:"";
+  position:absolute;
+  inset:4px;
+  border:1px solid rgba(255,255,255,.30);
+  border-radius:10px;
+}
+.brand-mark i{
+  position:relative;
+  z-index:2;
+  font-size:19px;
+  filter:drop-shadow(0 2px 3px rgba(0,0,0,.18));
+}
+
+/* Hover effects for ALL visual cards/sections */
+.card,
+.image-card,
+.step,
+.review,
+.coverage-tile,
+.benefit,
+.score,
+.priority,
+.service,
+.process,
+.price-card,
+.stat,
+.principle,
+.section-photo,
+.story>img,
+.coverage>img,
+.factor,
+.about-image,
+.auth-visual{
+  transition:
+    transform .35s cubic-bezier(.2,.7,.2,1),
+    box-shadow .35s ease,
+    border-color .35s ease;
+}
+
+.card:hover,
+.image-card:hover,
+.step:hover,
+.review:hover,
+.coverage-tile:hover,
+.benefit:hover,
+.score:hover,
+.priority:hover,
+.service:hover,
+.process:hover,
+.price-card:hover,
+.stat:hover,
+.principle:hover,
+.factor:hover{
+  transform:translateY(-6px);
+  box-shadow:0 20px 48px rgba(16,24,40,.13);
+  border-color:rgba(8,116,201,.30);
+}
+
+/* Image hover animation on every image in every non-contact section */
+.view:not(#view-contact) img{
+  transition:
+    transform .7s cubic-bezier(.2,.7,.2,1),
+    filter .45s ease;
+}
+.view:not(#view-contact) .card:hover img,
+.view:not(#view-contact) .image-card:hover img,
+.view:not(#view-contact) .step:hover img,
+.view:not(#view-contact) .review:hover img,
+.view:not(#view-contact) .coverage-tile:hover img,
+.view:not(#view-contact) .benefit:hover img,
+.view:not(#view-contact) .score:hover img,
+.view:not(#view-contact) .priority:hover img,
+.view:not(#view-contact) .service:hover img,
+.view:not(#view-contact) .process:hover img,
+.view:not(#view-contact) .price-card:hover>img,
+.view:not(#view-contact) .stat:hover img,
+.view:not(#view-contact) .principle:hover img,
+.view:not(#view-contact) .factor:hover img,
+.view:not(#view-contact) .section-photo:hover img,
+.view:not(#view-contact) .story:hover>img,
+.view:not(#view-contact) .coverage:hover>img,
+.view:not(#view-contact) .about-image:hover img{
+  transform:scale(1.055);
+  filter:saturate(1.08);
+}
+
+/* Hero/band image motion without changing layout */
+.hero-image,
+.image-band>img,
+.page-hero>img,
+.auth-visual img{
+  transition:transform 1.1s cubic-bezier(.2,.7,.2,1),filter .6s ease;
+}
+.hero:hover .hero-image,
+.image-band:hover>img,
+.page-hero:hover>img,
+.auth-visual:hover img{
+  transform:scale(1.025);
+  filter:saturate(1.05);
+}
+
+/* Smooth section entrance animations */
+.view.active .section,
+.view.active .page-hero{
+  animation:sectionFadeIn .55s ease both;
+}
+.view.active .section:nth-of-type(3){animation-delay:.04s}
+.view.active .section:nth-of-type(4){animation-delay:.08s}
+.view.active .section:nth-of-type(5){animation-delay:.12s}
+.view.active .section:nth-of-type(6){animation-delay:.16s}
+
+@keyframes sectionFadeIn{
+  from{opacity:0;transform:translateY(10px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+/* Image shimmer/float effect while hovered */
+.view:not(#view-contact) .image-card:hover,
+.view:not(#view-contact) .section-photo:hover,
+.view:not(#view-contact) .about-image:hover,
+.view:not(#view-contact) .priority:hover,
+.view:not(#view-contact) .service:hover,
+.view:not(#view-contact) .process:hover{
+  transform:translateY(-6px);
+}
+
+/* Keep contact page image-free and avoid adding visual effects there */
+#view-contact img{
+  transition:none!important;
+}
+
+/* Mobile controls */
+.mobile-controls{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:9px;
+}
+.mobile-control-btn{
+  border:1px solid var(--border);
+  background:var(--surface);
+  color:var(--text);
+}
+.mobile-actions{
+  gap:9px;
+}
+.mobile-actions .nav-contact{
+  min-height:45px;
+}
+
+/* Tighten spacing on medium/small screens too */
+@media(max-width:900px){
+  .section{padding:46px 0}
+  .section.alt{padding-top:46px;padding-bottom:46px}
+  .hero{min-height:560px}
+  .hero-2{min-height:500px}
+  .hero-content{padding:55px 0}
+  .page-hero{min-height:245px}
+  .page-hero-content{padding:35px 0}
+}
+
+@media(max-width:700px){
+  .topbar{display:none!important}
+  header{min-height:68px!important}
+  body{padding-top:68px!important}
+  .mobile-menu{top:68px!important;left:0!important;right:0!important;bottom:0!important}
+  .nav-controls{display:none}
+  .desktop-nav{display:none}
+  .section{padding:40px 0}
+  .section.alt{padding-top:40px;padding-bottom:40px}
+  .section-head{margin-bottom:22px}
+  .hero{min-height:535px}
+  .hero-2{min-height:475px}
+  .hero-content{padding:48px 0}
+  .page-hero{min-height:225px}
+  .page-hero-content{padding:30px 0}
+  .auth-page{padding:18px 0}
+  footer{padding-top:32px}
+}
+
+@media(max-width:480px){
+  .section{padding:36px 0}
+  .section.alt{padding-top:36px;padding-bottom:36px}
+  .hero{min-height:520px}
+  .hero-2{min-height:455px}
+  .hero-content{padding:42px 0}
+  .page-hero{min-height:210px}
+  .page-hero-content{padding:27px 0}
+}
+
+
+/* Requested contact-page map */
+.contact-map-wrap{margin-top:26px;border:1px solid var(--border);background:var(--surface);border-radius:20px;overflow:hidden;box-shadow:var(--shadow)}
+.map-head{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:20px 22px;border-bottom:1px solid var(--border)}
+.map-head h3{margin-top:4px}
+.map-badge{display:inline-flex;align-items:center;gap:7px;padding:8px 12px;border-radius:999px;background:var(--surface2);color:var(--primary);font-weight:800;font-size:12px;white-space:nowrap}
+.contact-map{height:360px;background:var(--surface2)}
+.contact-map iframe{display:block;width:100%;height:100%;border:0}
+@media(max-width:700px){.map-head{align-items:flex-start;flex-direction:column}.contact-map{height:300px}}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="topbar">
+<div class="container topbar-inner">
+<span><i class="fa-solid fa-shield-halved"></i> Residential security service • Available 24/7</span>
+<div class="top-right"><span>Security-focused service</span><a href="tel:+18005550199">(800) 555-0199</a></div>
+</div>
+</div>
+<div class="container nav-inner">
+
+<a class="brand" href="#home1" data-route="home1" aria-label="SecureKey 24/7 Home">
+<span class="brand-mark"><i class="fa-solid fa-key"></i></span>
+<span class="brand-text"><strong>SecureKey 24/7</strong><span>Residential Locksmith</span></span>
+</a>
+
+<nav class="desktop-nav">
+<a href="#home1" data-route="home1">Home 1</a>
+<a href="#home2" data-route="home2">Home 2</a>
+<a href="#about" data-route="about">About</a>
+<a href="#services" data-route="services">Services</a>
+<a href="#pricing" data-route="pricing">Pricing</a>
+
+<div class="nav-controls">
+<button class="theme-toggle nav-control-btn" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Dark mode">
+<i class="fa-solid fa-moon"></i>
+</button>
+<button class="theme-toggle nav-control-btn" id="rtlToggle" type="button" aria-label="Toggle RTL layout" title="RTL">RTL</button>
+<a class="nav-btn nav-contact nav-reach" href="#contact" data-route="contact">Reach Us</a>
+</div>
+</nav>
+
+<button class="mobile-toggle" id="mobileToggle" type="button" aria-expanded="false" aria-controls="mobileMenu">
+<i class="fa-solid fa-bars"></i>
+</button>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu">
+<a href="#home1" data-route="home1">Home 1</a>
+<a href="#home2" data-route="home2">Home 2</a>
+<a href="#about" data-route="about">About</a>
+<a href="#services" data-route="services">Services</a>
+<a href="#pricing" data-route="pricing">Pricing</a>
+<div class="mobile-actions">
+<div class="mobile-controls">
+<button class="mobile-action mobile-control-btn" id="mobileThemeToggle" type="button"><i class="fa-solid fa-moon"></i><span>Dark</span></button>
+<button class="mobile-action mobile-control-btn" id="mobileRtlToggle" type="button"><i class="fa-solid fa-arrows-left-right"></i><span>RTL</span></button>
+</div>
+<a class="mobile-action nav-contact" href="#contact" data-route="contact">Reach Us</a>
+</div>
+</nav>
+
+<main>
+
+<!-- =========================================================
+HOME 1
+HERO + EXACTLY 5 SECTIONS
+========================================================= -->
+<section class="view active" id="view-home1" data-view="home1">
+
+<section class="hero">
+<img class="hero-image"
+src="https://images.pexels.com/photos/35287856/pexels-photo-35287856.jpeg?auto=compress&cs=tinysrgb&w=2400"
+data-fallback="https://images.pexels.com/photos/6689288/pexels-photo-6689288.jpeg?auto=compress&cs=tinysrgb&w=2400"
+alt="Locksmith working with residential lock and key tools"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="container">
+<div class="hero-content">
+<div class="eyebrow">24/7 Emergency Residential Locksmith</div>
+<h1>Locked Out? Get Back Inside Safely, Day or Night.</h1>
+<p>Fast residential locksmith assistance for lockouts, lock rekeying, smart lock installation and safe opening with a security-first approach.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="tel:+18005550199">Call 24/7 Locksmith</a>
+<a class="btn btn-outline-light" href="#contact" data-route="contact">Request Emergency Service</a>
+</div>
+<div class="trust-strip">
+<span class="trust-pill">24/7 availability</span>
+<span class="trust-pill">Residential specialists</span>
+<span class="trust-pill">Security-focused service</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- HOME 1 SECTION 1 -->
+<section class="section">
+<div class="container split">
+<div class="section-photo">
+<img src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=1600"
+data-fallback="https://images.pexels.com/photos/36585227/pexels-photo-36585227.jpeg?auto=compress&cs=tinysrgb&w=1600"
+alt="Traditional residential door lock and key"
+loading="lazy" onerror="this.onerror=null;this.src=this.dataset.fallback;">
+</div>
+<div>
+<div class="eyebrow">Emergency lockout response</div>
+<h2>Professional help when your front door becomes the problem.</h2>
+<p class="muted" style="margin-top:14px">Our emergency response is designed around safe access, careful inspection and clear communication.</p>
+<ul class="check-list">
+<li><i class="fa-solid fa-check"></i><span>Residential house, apartment and townhome lockout assistance.</span></li>
+<li><i class="fa-solid fa-check"></i><span>Careful entry methods where practical and appropriate.</span></li>
+<li><i class="fa-solid fa-check"></i><span>Lock inspection before recommending repair or replacement.</span></li>
+<li><i class="fa-solid fa-check"></i><span>Clear communication before service work begins.</span></li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- HOME 1 SECTION 2 -->
+<section class="section alt">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Residential services</div>
+<h2>Solutions for everyday locks and modern home security.</h2>
+<p class="muted" style="margin-top:10px">Every service below uses a dedicated security-related visual.</p>
+</div>
+
+<div class="grid grid-3">
+
+<article class="image-card">
+<img src="https://images.pexels.com/photos/792034/pexels-photo-792034.jpeg?auto=compress&cs=tinysrgb&w=1400"
+data-fallback="https://images.pexels.com/photos/7641991/pexels-photo-7641991.jpeg?auto=compress&cs=tinysrgb&w=1400"
+alt="Keys and residential door lock for rekeying service" loading="lazy"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="card-body">
+<h3>Lock Rekeying</h3>
+<p>Change which key operates a compatible existing lock without automatically replacing all hardware.</p>
+<a class="text-link" href="#contact" data-route="contact">Request rekeying →</a>
+</div>
+</article>
+
+<article class="image-card">
+<img src="https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=1400"
+data-fallback="https://images.pexels.com/photos/6689289/pexels-photo-6689289.jpeg?auto=compress&cs=tinysrgb&w=1400"
+alt="Modern smart door lock on residential door" loading="lazy"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="card-body">
+<h3>Smart Lock Installation</h3>
+<p>Upgrade compatible residential doors with keypad, electronic or connected access hardware.</p>
+<a class="text-link" href="#contact" data-route="contact">Plan an upgrade →</a>
+</div>
+</article>
+
+<article class="image-card">
+<img src="https://images.pexels.com/photos/24503710/pexels-photo-24503710.jpeg?auto=compress&cs=tinysrgb&w=1400"
+data-fallback="https://images.pexels.com/photos/792031/pexels-photo-792031.jpeg?auto=compress&cs=tinysrgb&w=1400"
+alt="Modern home security equipment for residential protection" loading="lazy"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="card-body">
+<h3>Safe Opening</h3>
+<p>Professional assistance for authorized homeowners who cannot access a residential safe normally.</p>
+<a class="text-link" href="#contact" data-route="contact">Ask about safe service →</a>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- HOME 1 SECTION 3 -->
+<section class="section">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Response process</div>
+<h2>A straightforward path from call to secure home.</h2>
+</div>
+
+<div class="steps">
+
+<article class="step">
+<img src="https://images.pexels.com/photos/17325288/pexels-photo-17325288.jpeg?auto=compress&cs=tinysrgb&w=1000"
+alt="Keys inserted into residential door lock" loading="lazy">
+<div class="step-body"><div class="step-num">01</div><h3>Tell us what happened</h3><p>Share the property type, entry point and current lock problem.</p></div>
+</article>
+
+<article class="step">
+<img src="https://images.pexels.com/photos/7522609/pexels-photo-7522609.jpeg?auto=compress&cs=tinysrgb&w=1000"
+alt="Fingerprint smart lock access on a door" loading="lazy">
+<div class="step-body"><div class="step-num">02</div><h3>Choose the service</h3><p>Identify whether you need emergency entry, rekeying or an upgrade.</p></div>
+</article>
+
+<article class="step">
+<img src="https://images.pexels.com/photos/14764384/pexels-photo-14764384.jpeg?auto=compress&cs=tinysrgb&w=1000"
+alt="Close-up view of residential lock and key" loading="lazy">
+<div class="step-body"><div class="step-num">03</div><h3>Inspect the hardware</h3><p>Review the lock, cylinder and door condition before service.</p></div>
+</article>
+
+<article class="step">
+<img src="https://images.pexels.com/photos/6682880/pexels-photo-6682880.jpeg?auto=compress&cs=tinysrgb&w=1000"
+alt="Person using a security access keypad" loading="lazy">
+<div class="step-body"><div class="step-num">04</div><h3>Restore secure access</h3><p>Complete the agreed service and verify the entry system.</p></div>
+</article>
+
+</div>
+</div>
+</section>
+
+
+<!-- HOME 1 SECTION 5 -->
+<section class="section">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Homeowner feedback</div>
+<h2>Service built around clear communication.</h2>
+</div>
+
+<div class="reviews">
+
+<article class="review">
+<img src="https://images.pexels.com/photos/30332492/pexels-photo-30332492.jpeg?auto=compress&cs=tinysrgb&w=3840"
+data-fallback="https://images.pexels.com/photos/25745081/pexels-photo-25745081.jpeg?auto=compress&cs=tinysrgb&w=3840"
+alt="Residential home entrance secured with modern lock" loading="lazy"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="review-body">
+<div class="stars">★★★★★</div>
+<p>"The technician explained the lockout process before doing anything. The replacement key worked perfectly."</p>
+<div class="reviewer"><div class="avatar">JM</div><div><strong>Jordan M.</strong><span>Residential customer</span></div></div>
+</div>
+</article>
+
+<article class="review">
+<img src="https://images.pexels.com/photos/20270229/pexels-photo-20270229.jpeg?auto=compress&cs=tinysrgb&w=3840"
+data-fallback="https://images.pexels.com/photos/15334274/pexels-photo-15334274.jpeg?auto=compress&cs=tinysrgb&w=3840"
+alt="Home access hardware and residential door" loading="lazy"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="review-body">
+<div class="stars">★★★★★</div>
+<p>"We wanted keypad access for family members. The installation was clean and easy to understand."</p>
+<div class="reviewer"><div class="avatar">SK</div><div><strong>Sarah K.</strong><span>Smart lock customer</span></div></div>
+</div>
+</article>
+
+<article class="review">
+<img src="https://images.pexels.com/photos/5599753/pexels-photo-5599753.jpeg?auto=compress&cs=tinysrgb&w=3840"
+data-fallback="https://images.pexels.com/photos/6474348/pexels-photo-6474348.jpeg?auto=compress&cs=tinysrgb&w=1200"
+alt="Modern residential door security hardware" loading="lazy"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="review-body">
+<div class="stars">★★★★★</div>
+<p>"Our old lock had become difficult to operate. Rekeying solved the problem without replacing everything."</p>
+<div class="reviewer"><div class="avatar">DP</div><div><strong>Daniel P.</strong><span>Homeowner</span></div></div>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+</section>
+
+
+<!-- =========================================================
+HOME 2
+HERO + EXACTLY 5 DIFFERENT SECTIONS
+========================================================= -->
+<section class="view" id="view-home2" data-view="home2">
+
+<section class="hero hero-2">
+<img class="hero-image"
+src="https://images.pexels.com/photos/6689289/pexels-photo-6689289.jpeg?auto=compress&cs=tinysrgb&w=2400"
+data-fallback="https://images.pexels.com/photos/7522609/pexels-photo-7522609.jpeg?auto=compress&cs=tinysrgb&w=2400"
+alt="Modern smart lock installed on residential door"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="container">
+<div class="hero-content">
+<div class="hero-badge">Residential access & security</div>
+<h1>Modernize Your Entry Without Complicating Your Home.</h1>
+<p>Move from traditional keys to smarter access while keeping the installation practical, secure and appropriate for your residential door.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#contact" data-route="contact">Plan My Upgrade</a>
+<a class="btn btn-outline-light" href="#services" data-route="services">Explore Services</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- HOME 2 SECTION 1 -->
+<section class="section">
+<div class="container coverage">
+<img src="https://images.pexels.com/photos/6689288/pexels-photo-6689288.jpeg?auto=compress&cs=tinysrgb&w=1700"
+data-fallback="https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=1700"
+alt="Hand using smart residential door access" loading="lazy"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div>
+<div class="eyebrow">Service coverage</div>
+<h2>One residential security partner for different access needs.</h2>
+<p class="muted" style="margin-top:12px">Start with the actual condition of the door and lock instead of choosing hardware blindly.</p>
+
+<div class="coverage-grid">
+<div class="coverage-tile">
+<img src="https://images.pexels.com/photos/36585227/pexels-photo-36585227.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Key inserted into residential door handle" loading="lazy">
+<div><strong>Front & Back Doors</strong><span>Entry hardware inspection, rekeying and replacement.</span></div>
+</div>
+<div class="coverage-tile">
+<img src="https://images.pexels.com/photos/7641991/pexels-photo-7641991.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Modern residential door handle and keys" loading="lazy">
+<div><strong>Garage Entries</strong><span>Assess locks and access points connected to the home.</span></div>
+</div>
+<div class="coverage-tile">
+<img src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Traditional key and door lock" loading="lazy">
+<div><strong>Rental Homes</strong><span>Rekey options for move-ins and tenant turnover.</span></div>
+</div>
+<div class="coverage-tile">
+<img src="https://images.pexels.com/photos/15334274/pexels-photo-15334274.jpeg?auto=compress&cs=tinysrgb&w=3840" alt="Modern keypad lock on a secure residential door" loading="lazy">
+<div><strong>Smart Access</strong><span>Keypad and connected-lock installation for compatible doors.</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- HOME 2 SECTION 2 -->
+<section class="section alt">
+<div class="container split">
+<div>
+<div class="eyebrow">Smart access</div>
+<h2>Convenience that starts at your front door.</h2>
+<p class="muted" style="margin-top:12px">Smart locks can simplify access for households that want fewer physical keys or controlled entry.</p>
+
+<div class="benefits">
+<div class="benefit">
+<img src="https://images.pexels.com/photos/6682880/pexels-photo-6682880.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Security keypad used for keyless entry" loading="lazy">
+<div><strong>Keypad entry</strong><span>Use a code instead of carrying a physical key.</span></div>
+</div>
+<div class="benefit">
+<img src="https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Digital smart door lock system" loading="lazy">
+<div><strong>Household access</strong><span>Support family and trusted visitor access.</span></div>
+</div>
+<div class="benefit">
+<img src="https://images.pexels.com/photos/24503710/pexels-photo-24503710.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Smart home security devices" loading="lazy">
+<div><strong>Security awareness</strong><span>Selected systems can provide access activity information.</span></div>
+</div>
+<div class="benefit">
+<img src="https://images.pexels.com/photos/35287856/pexels-photo-35287856.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Locksmith tools used for residential lock work" loading="lazy">
+<div><strong>Professional fit check</strong><span>Confirm door compatibility before installation.</span></div>
+</div>
+</div>
+</div>
+
+<img src="https://images.pexels.com/photos/6689289/pexels-photo-6689289.jpeg?auto=compress&cs=tinysrgb&w=1600"
+data-fallback="https://images.pexels.com/photos/17325288/pexels-photo-17325288.jpeg?auto=compress&cs=tinysrgb&w=1600"
+alt="Sleek smart lock on residential white door" loading="lazy"
+onerror="this.onerror=null;this.src=this.dataset.fallback;">
+</div>
+</section>
+
+<!-- HOME 2 SECTION 3 -->
+<section class="section">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Home access review</div>
+<h2>Look at the whole entry system, not just the key.</h2>
+</div>
+
+<div class="score-grid">
+<article class="score">
+<img src="https://images.pexels.com/photos/14764384/pexels-photo-14764384.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Door lock and key security detail" loading="lazy">
+<div class="score-body">
+<h3>Entry hardware condition</h3>
+<div class="score-number">88%</div>
+<div class="meter"><span></span></div>
+<p class="muted" style="margin-top:10px;font-size:12px">Example assessment of lock operation, fit and visible wear.</p>
+</div>
+</article>
+
+<article class="score">
+<img src="https://images.pexels.com/photos/6682880/pexels-photo-6682880.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Residential keypad access system" loading="lazy">
+<div class="score-body">
+<h3>Access convenience</h3>
+<div class="score-number">76%</div>
+<div class="meter"><span style="width:76%"></span></div>
+<p class="muted" style="margin-top:10px;font-size:12px">Example assessment of key management and everyday entry convenience.</p>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- HOME 2 SECTION 4 -->
+<section class="section alt">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Protection priorities</div>
+<h2>Build your upgrade around what matters most.</h2>
+</div>
+
+<div class="priority-grid">
+<article class="priority">
+<img src="https://images.pexels.com/photos/7641991/pexels-photo-7641991.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern lock and key access control" loading="lazy">
+<div class="priority-body"><div class="priority-number">01</div><h3>Control</h3><p>Reduce uncertainty around physical keys and consider controlled access options.</p></div>
+</article>
+<article class="priority">
+<img src="https://images.pexels.com/photos/36585227/pexels-photo-36585227.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Traditional residential door lock hardware" loading="lazy">
+<div class="priority-body"><div class="priority-number">02</div><h3>Reliability</h3><p>Address sticky, worn or poorly aligned hardware before it becomes an emergency.</p></div>
+</article>
+<article class="priority">
+<img src="https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Contemporary smart residential door lock" loading="lazy">
+<div class="priority-body"><div class="priority-number">03</div><h3>Convenience</h3><p>Select an entry system that matches how your household actually uses the home.</p></div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- HOME 2 SECTION 5 -->
+<section class="section">
+<div class="container">
+<div class="cta">
+<div>
+<div class="eyebrow" style="color:#a8e9ff">Ready when you are</div>
+<h2>Need help with a lock today?</h2>
+<p>Tell us whether it is an emergency, rekey, smart lock upgrade or safe-opening request.</p>
+</div>
+<a class="btn btn-light" href="#contact" data-route="contact">Contact SecureKey</a>
+</div>
+</div>
+</section>
+
+</section>
+
+
+<!-- =========================================================
+SERVICES
+NORMAL H1 + EXACTLY 4 SECTIONS
+========================================================= -->
+<section class="view" id="view-services" data-view="services">
+
+<section class="page-hero">
+<img src="https://images.pexels.com/photos/35287856/pexels-photo-35287856.jpeg?auto=compress&cs=tinysrgb&w=2000"
+data-fallback="https://images.pexels.com/photos/792034/pexels-photo-792034.jpeg?auto=compress&cs=tinysrgb&w=2000"
+alt="Professional locksmith working with lock tools" onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="container"><div class="page-hero-content"><div class="eyebrow" style="color:#7edcff">Residential service menu</div><h1>Locksmith Services</h1><p>Emergency access, lock rekeying, smart lock installation and safe opening for residential properties.</p></div></div>
+</section>
+
+<!-- SERVICES SECTION 1 -->
+<section class="section">
+<div class="container">
+<div class="section-head"><div class="eyebrow">Core services</div><h2>Practical solutions for your home's access points.</h2></div>
+
+<div class="service-grid">
+
+<article class="service">
+<img src="https://images.pexels.com/photos/17325288/pexels-photo-17325288.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Keys inserted in residential door lock" loading="lazy">
+<div class="service-body"><h3>24/7 Lockout Response</h3><p>Residential access assistance when keys are lost, locked inside or a lock stops working.</p><a class="text-link" href="tel:+18005550199">Call emergency line →</a></div>
+</article>
+
+<article class="service">
+<img src="https://images.pexels.com/photos/7641991/pexels-photo-7641991.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Modern residential lock and keys" loading="lazy">
+<div class="service-body"><h3>Lock Rekeying</h3><p>Reconfigure compatible locks so previous keys no longer operate the cylinder.</p><a class="text-link" href="#contact" data-route="contact">Request rekeying →</a></div>
+</article>
+
+<article class="service">
+<img src="https://images.pexels.com/photos/7522609/pexels-photo-7522609.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Fingerprint smart door lock installation" loading="lazy">
+<div class="service-body"><h3>Smart Lock Installation</h3><p>Install compatible smart entry hardware and help establish the basic access experience.</p><a class="text-link" href="#contact" data-route="contact">Plan installation →</a></div>
+</article>
+
+<article class="service">
+<img src="https://images.pexels.com/photos/24503710/pexels-photo-24503710.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Home security equipment and sensors" loading="lazy">
+<div class="service-body"><h3>Safe Opening</h3><p>Assistance for authorized homeowners who cannot open a residential safe normally.</p><a class="text-link" href="#contact" data-route="contact">Discuss safe access →</a></div>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- SERVICES SECTION 2 -->
+<section class="section alt">
+<div class="container">
+<div class="section-head"><div class="eyebrow">Service details</div><h2>What to expect from a security-focused visit.</h2></div>
+
+<div class="process-grid">
+<article class="process">
+<img src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Key entering a residential door lock" loading="lazy">
+<div class="process-body"><div class="process-number">01</div><h3>Identify</h3><p>Establish the access issue and inspect the relevant door, cylinder, lock or safe.</p></div>
+</article>
+<article class="process">
+<img src="https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Close-up of modern smart door lock" loading="lazy">
+<div class="process-body"><div class="process-number">02</div><h3>Explain</h3><p>Describe practical service options before proceeding with the agreed work.</p></div>
+</article>
+<article class="process">
+<img src="https://images.pexels.com/photos/6682880/pexels-photo-6682880.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Security keypad for residential access" loading="lazy">
+<div class="process-body"><div class="process-number">03</div><h3>Verify</h3><p>After service, operation is checked so the home is left with functional access.</p></div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- SERVICES SECTION 3 -->
+<section class="section">
+<div class="container split">
+<div>
+<div class="eyebrow">Emergency checklist</div>
+<h2>When you call, have these details ready.</h2>
+<ul class="check-list">
+<li><i class="fa-solid fa-check"></i><span>Your property type and affected entry point.</span></li>
+<li><i class="fa-solid fa-check"></i><span>Whether the door is locked, jammed or the key is unavailable.</span></li>
+<li><i class="fa-solid fa-check"></i><span>Whether anyone is safely inside or outside.</span></li>
+<li><i class="fa-solid fa-check"></i><span>Any known smart-lock, keypad or safe information.</span></li>
+</ul>
+</div>
+<div class="section-photo">
+<img src="https://images.pexels.com/photos/36585227/pexels-photo-36585227.jpeg?auto=compress&cs=tinysrgb&w=1500" alt="Key and door lock for emergency locksmith service" loading="lazy">
+</div>
+</div>
+</section>
+
+<!-- SERVICES SECTION 4 -->
+<section class="section alt">
+<div class="container">
+<div class="cta"><div><h2>Not sure which service you need?</h2><p>Describe the problem in the emergency contact form and identify the service that best matches your situation.</p></div><a class="btn btn-light" href="#contact" data-route="contact">Open Contact Form</a></div>
+</div>
+</section>
+</section>
+
+
+<!-- =========================================================
+PRICING
+NORMAL H1 + EXACTLY 4 SECTIONS
+========================================================= -->
+<section class="view" id="view-pricing" data-view="pricing">
+
+<section class="page-hero">
+<img src="https://images.pexels.com/photos/792031/pexels-photo-792031.jpeg?auto=compress&cs=tinysrgb&w=2000"
+data-fallback="https://images.pexels.com/photos/14764384/pexels-photo-14764384.jpeg?auto=compress&cs=tinysrgb&w=2000"
+alt="Door lock and key security detail" onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="container"><div class="page-hero-content"><div class="eyebrow" style="color:#7edcff">Clear service planning</div><h1>Pricing Guide</h1><p>Example planning ranges for common residential locksmith services. Final pricing depends on hardware, access conditions and parts.</p></div></div>
+</section>
+
+<!-- PRICING SECTION 1 -->
+<section class="section">
+<div class="container">
+<div class="section-head"><div class="eyebrow">Planning ranges</div><h2>Understand the service before you schedule.</h2></div>
+
+<div class="price-grid">
+<article class="price-card">
+<img src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=1300" alt="Key in traditional door lock" loading="lazy">
+<div class="price-body"><h3>Residential Lockout</h3><div class="price">$89+ <small>/ service</small></div><p class="muted" style="font-size:11px">Example starting range</p><ul class="price-list"><li><i class="fa-solid fa-check"></i>Access assessment</li><li><i class="fa-solid fa-check"></i>Standard residential entry</li><li><i class="fa-solid fa-check"></i>Lock operation check</li><li><i class="fa-solid fa-check"></i>Emergency availability</li></ul><a class="btn btn-primary" style="width:100%" href="#contact" data-route="contact">Request Quote</a></div>
+</article>
+
+<article class="price-card featured">
+<img src="https://images.pexels.com/photos/7641991/pexels-photo-7641991.jpeg?auto=compress&cs=tinysrgb&w=1300" alt="Modern door handle and keys" loading="lazy">
+<div class="price-body"><h3>Rekey Service</h3><div class="price">$129+ <small>/ service</small></div><p class="muted" style="font-size:11px">Example starting range</p><ul class="price-list"><li><i class="fa-solid fa-check"></i>Compatible lock inspection</li><li><i class="fa-solid fa-check"></i>Cylinder reconfiguration</li><li><i class="fa-solid fa-check"></i>New keys where applicable</li><li><i class="fa-solid fa-check"></i>Operation verification</li></ul><a class="btn btn-primary" style="width:100%" href="#contact" data-route="contact">Request Quote</a></div>
+</article>
+
+<article class="price-card">
+<img src="https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=1300" alt="Smart electronic door lock" loading="lazy">
+<div class="price-body"><h3>Smart Lock Upgrade</h3><div class="price">$199+ <small>/ installation</small></div><p class="muted" style="font-size:11px">Hardware priced separately</p><ul class="price-list"><li><i class="fa-solid fa-check"></i>Compatibility check</li><li><i class="fa-solid fa-check"></i>Professional installation</li><li><i class="fa-solid fa-check"></i>Basic setup assistance</li><li><i class="fa-solid fa-check"></i>Operation verification</li></ul><a class="btn btn-primary" style="width:100%" href="#contact" data-route="contact">Plan Upgrade</a></div>
+</article>
+</div>
+
+<div class="pricing-note">Pricing shown is illustrative website content, not a binding quote. Parts, unusual access conditions, after-hours requirements and specialized hardware may change final pricing.</div>
+</div>
+</section>
+
+<!-- PRICING SECTION 2 -->
+<section class="section alt">
+<div class="container">
+<div class="section-head"><div class="eyebrow">What affects cost</div><h2>Four factors can change the final service price.</h2></div>
+
+<div class="factor-grid">
+<article class="factor"><img src="https://images.pexels.com/photos/36585227/pexels-photo-36585227.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Metal door lock hardware" loading="lazy"><div class="factor-body"><h3>Hardware type</h3><p>Standard cylinders, high-security locks and smart locks can require different service work.</p></div></article>
+<article class="factor"><img src="https://images.pexels.com/photos/6689289/pexels-photo-6689289.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Modern smart door lock" loading="lazy"><div class="factor-body"><h3>Access condition</h3><p>Door alignment, damaged hardware and unusual access conditions can affect the work required.</p></div></article>
+<article class="factor"><img src="https://images.pexels.com/photos/17325288/pexels-photo-17325288.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Keys in door lock" loading="lazy"><div class="factor-body"><h3>Timing</h3><p>Emergency and after-hours service may differ from planned daytime appointments.</p></div></article>
+<article class="factor"><img src="https://images.pexels.com/photos/7522609/pexels-photo-7522609.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Fingerprint electronic lock" loading="lazy"><div class="factor-body"><h3>Smart hardware</h3><p>Connected locks may require hardware-specific installation and configuration.</p></div></article>
+</div>
+</div>
+</section>
+
+<!-- PRICING SECTION 3 -->
+<section class="section">
+<div class="container">
+<div class="section-head"><div class="eyebrow">Quote preparation</div><h2>Make your service request easier to price.</h2></div>
+
+<div class="steps">
+<article class="step"><img src="https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Smart door lock hardware" loading="lazy"><div class="step-body"><div class="step-num">01</div><h3>Share photos</h3><p>Provide a clear photo of the lock and door hardware when appropriate.</p></div></article>
+<article class="step"><img src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Key inserted into door lock" loading="lazy"><div class="step-body"><div class="step-num">02</div><h3>Describe symptoms</h3><p>Explain whether the key is lost, stuck, broken or no longer working.</p></div></article>
+<article class="step"><img src="https://images.pexels.com/photos/6682880/pexels-photo-6682880.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Home security keypad" loading="lazy"><div class="step-body"><div class="step-num">03</div><h3>State your goal</h3><p>Tell us whether you want access restored, a rekey or an upgrade.</p></div></article>
+<article class="step"><img src="https://images.pexels.com/photos/7641991/pexels-photo-7641991.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Residential key and door handle" loading="lazy"><div class="step-body"><div class="step-num">04</div><h3>Confirm the plan</h3><p>Review the proposed service and expected parts before work begins.</p></div></article>
+</div>
+</div>
+</section>
+
+<!-- PRICING SECTION 4 -->
+<section class="section alt">
+<div class="container">
+<div class="cta"><div><h2>Get a service-specific estimate.</h2><p>Use the contact form to explain what is happening at your home.</p></div><a class="btn btn-light" href="#contact" data-route="contact">Request Estimate</a></div>
+</div>
+</section>
+</section>
+
+
+<!-- =========================================================
+ABOUT
+NORMAL H1 + EXACTLY 4 SECTIONS
+========================================================= -->
+<section class="view" id="view-about" data-view="about">
+
+<section class="page-hero">
+<img src="https://images.pexels.com/photos/6195272/pexels-photo-6195272.jpeg?auto=compress&cs=tinysrgb&w=2000"
+data-fallback="https://images.pexels.com/photos/6207811/pexels-photo-6207811.jpeg?auto=compress&cs=tinysrgb&w=2000"
+alt="Professional residential security inspection" onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="container"><div class="page-hero-content"><div class="eyebrow" style="color:#7edcff">About SecureKey</div><h1>Residential Security, Done Carefully.</h1><p>We focus on practical locksmith service, clear communication and dependable access solutions for homeowners.</p></div></div>
+</section>
+
+<!-- ABOUT SECTION 1 -->
+<section class="section">
+<div class="container story">
+<div>
+<div class="eyebrow">Our approach</div>
+<h2>Every home has a different access problem.</h2>
+<p class="muted" style="margin-top:14px">A lockout may need entry only. A move-in may call for rekeying. A household with changing access needs may benefit from a smart lock.</p>
+<p class="muted" style="margin-top:11px">Our approach begins with understanding the existing door and hardware before recommending a practical solution.</p>
+</div>
+<img src="https://images.pexels.com/photos/35287856/pexels-photo-35287856.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Locksmith tools and hands working with residential lock" loading="lazy">
+</div>
+</section>
+
+<!-- ABOUT SECTION 2 -->
+<section class="section alt">
+<div class="container">
+<div class="stats">
+<div class="stat"><img src="https://images.pexels.com/photos/17325288/pexels-photo-17325288.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Residential keys and lock" loading="lazy"><div class="stat-body"><strong>24/7</strong><span>Emergency availability</span></div></div>
+<div class="stat"><img src="https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Smart residential door lock" loading="lazy"><div class="stat-body"><strong>4</strong><span>Core service categories</span></div></div>
+<div class="stat"><img src="https://images.pexels.com/photos/6682880/pexels-photo-6682880.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Residential access keypad" loading="lazy"><div class="stat-body"><strong>360°</strong><span>Access-focused assessment</span></div></div>
+<div class="stat"><img src="https://images.pexels.com/photos/7641991/pexels-photo-7641991.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Residential key management" loading="lazy"><div class="stat-body"><strong>1:1</strong><span>Service communication</span></div></div>
+</div>
+</div>
+</section>
+
+<!-- ABOUT SECTION 3 -->
+<section class="section">
+<div class="container">
+<div class="section-head"><div class="eyebrow">Service principles</div><h2>What guides every residential visit.</h2></div>
+
+<div class="principles">
+<article class="principle"><img src="https://images.pexels.com/photos/36585227/pexels-photo-36585227.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up residential door lock" loading="lazy"><div class="principle-body"><h3>Inspect first</h3><p>Understand hardware condition and compatibility before choosing a solution.</p></div></article>
+<article class="principle"><img src="https://images.pexels.com/photos/6689289/pexels-photo-6689289.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Sleek smart residential lock" loading="lazy"><div class="principle-body"><h3>Explain clearly</h3><p>Keep homeowners informed about practical options for their situation.</p></div></article>
+<article class="principle"><img src="https://images.pexels.com/photos/24503710/pexels-photo-24503710.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern home security system" loading="lazy"><div class="principle-body"><h3>Protect the home</h3><p>Restore reliable access while keeping security central to the work.</p></div></article>
+</div>
+</div>
+</section>
+
+<!-- ABOUT SECTION 4 -->
+<section class="section alt">
+<div class="container">
+<div class="cta"><div><h2>Have a residential lock question?</h2><p>Tell us what is happening and identify the service you need.</p></div><a class="btn btn-light" href="#contact" data-route="contact">Talk to SecureKey</a></div>
+</div>
+</section>
+</section>
+
+
+<!-- =========================================================
+CONTACT
+NORMAL H1 + EXACTLY 4 SECTIONS
+NO CONTENT IMAGES
+========================================================= -->
+<section class="view" id="view-contact" data-view="contact">
+
+<section class="page-hero">
+<div style="position:absolute;inset:0;background:linear-gradient(135deg,#06101b,#0a2941);z-index:-2"></div>
+<div class="container"><div class="page-hero-content"><div class="eyebrow" style="color:#7edcff">Emergency contact</div><h1>Contact SecureKey 24/7</h1><p>For urgent lockouts, rekeying, smart lock installation, safe opening or residential security questions.</p></div></div>
+</section>
+
+<!-- CONTACT SECTION 1 -->
+<section class="section">
+<div class="container contact-layout">
+<div class="contact-info">
+
+<div class="emergency">
+<div class="eyebrow" style="color:#7edcff">Immediate assistance</div>
+<h3>Locked out right now?</h3>
+<p>Call the emergency line for the fastest response path.</p>
+<a class="btn btn-primary" style="margin-top:17px" href="tel:+18005550199">Call (800) 555-0199</a>
+</div>
+
+<div class="contact-card"><i class="fa-solid fa-clock"></i><strong>Availability</strong><span>24 hours a day, 7 days a week</span></div>
+<div class="contact-card"><i class="fa-solid fa-envelope"></i><strong>Email</strong><span>help@securekey247.example</span></div>
+<div class="contact-card"><i class="fa-solid fa-location-dot"></i><strong>Residential service area</strong><span>Local homes and surrounding residential communities</span></div>
+
+</div>
+
+<div class="contact-form">
+<div class="eyebrow">Emergency service form</div>
+<h2 style="font-size:2rem">Tell us what you need.</h2>
+<p class="muted" style="margin-top:7px;font-size:12px">Complete the form with the most important details about your lock or access issue.</p>
+
+<form id="contactForm">
+<div class="form-grid">
+
+<div class="field"><label for="contactName">Full name</label><input id="contactName" type="text" autocomplete="name" placeholder="Your name" required></div>
+<div class="field"><label for="contactPhone">Phone number</label><input id="contactPhone" type="tel" autocomplete="tel" placeholder="Your phone number" required></div>
+<div class="field"><label for="contactEmail">Email address</label><input id="contactEmail" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+
+<div class="field">
+<label for="serviceType">Service needed</label>
+<select id="serviceType" required>
+<option value="">Select a service</option>
+<option>Emergency lockout</option>
+<option>Lock rekeying</option>
+<option>Smart lock installation</option>
+<option>Safe opening</option>
+<option>Security assessment</option>
+<option>Other residential issue</option>
+</select>
+</div>
+
+<div class="field full"><label for="contactAddress">Service address / area</label><input id="contactAddress" type="text" autocomplete="street-address" placeholder="Property address or service area" required></div>
+
+<div class="field full">
+<label for="contactMessage">Describe the issue</label>
+<textarea id="contactMessage" placeholder="Tell us what happened and what type of lock you have." required></textarea>
+<span class="form-help">For an urgent lockout, call the emergency line rather than waiting for a form response.</span>
+</div>
+
+</div>
+
+<div class="form-submit">
+<button class="btn btn-primary" type="submit">Send Service Request</button>
+<span class="form-help">Your details are used for service communication.</span>
+</div>
+
+<div class="form-message" id="contactSuccess">Request received. This demo form has been submitted successfully. For immediate service, call (800) 555-0199.</div>
+</form>
+</div>
+</div>
+
+<div class="contact-map-wrap">
+<div class="map-head">
+<div>
+<div class="eyebrow">Service area map</div>
+<h3>Find residential locksmith coverage near you.</h3>
+</div>
+<span class="map-badge"><i class="fa-solid fa-map-location-dot"></i> Map</span>
+</div>
+<div class="contact-map">
+<iframe
+  title="Residential locksmith service area map"
+  src="https://www.google.com/maps?q=Residential%20Locksmith&output=embed"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  allowfullscreen></iframe>
+</div>
+</div>
+</section>
+
+<!-- CONTACT SECTION 2 -->
+<section class="section alt">
+<div class="container">
+<div class="section-head"><div class="eyebrow">Before you submit</div><h2>Helpful details for faster service planning.</h2></div>
+<div class="grid grid-3">
+<article class="card"><div class="card-body"><h3>Which door?</h3><p>Tell us whether the issue involves the front, back, side, garage or another entry.</p></div></article>
+<article class="card"><div class="card-body"><h3>What changed?</h3><p>Explain if the key was lost, the lock jammed, the cylinder became difficult or access stopped.</p></div></article>
+<article class="card"><div class="card-body"><h3>How urgent?</h3><p>State whether you are currently locked out or planning a non-emergency upgrade.</p></div></article>
+</div>
+</div>
+</section>
+
+<!-- CONTACT SECTION 3 -->
+<section class="section">
+<div class="container">
+<div class="section-head"><div class="eyebrow">Service communication</div><h2>Clear information helps us prepare.</h2></div>
+<div class="grid grid-3">
+<article class="card"><div class="card-body"><h3>Lock information</h3><p>If known, include the lock brand, model or approximate age.</p></div></article>
+<article class="card"><div class="card-body"><h3>Door condition</h3><p>Tell us whether the door currently opens, closes and latches normally.</p></div></article>
+<article class="card"><div class="card-body"><h3>Your goal</h3><p>Tell us whether you want access restored, rekeying, replacement or an upgrade.</p></div></article>
+</div>
+</div>
+</section>
+
+<!-- CONTACT SECTION 4 -->
+<section class="section alt">
+<div class="container">
+<div class="cta"><div><h2>Emergency lockout? Call instead.</h2><p>Forms are useful for planning. If you cannot access your home now, use the 24/7 phone line.</p></div><a class="btn btn-light" href="tel:+18005550199">Call Now</a></div>
+</div>
+</section>
+</section>
+
+
+<!-- =========================================================
+LOGIN
+========================================================= -->
+<section class="view" id="view-login" data-view="login">
+<div class="auth-page">
+<div class="container">
+<div class="auth-shell">
+
+<div class="auth-visual">
+<img src="https://images.pexels.com/photos/6682880/pexels-photo-6682880.jpeg?auto=compress&cs=tinysrgb&w=1500"
+data-fallback="https://images.pexels.com/photos/6689288/pexels-photo-6689288.jpeg?auto=compress&cs=tinysrgb&w=1500"
+alt="Residential keypad security access" onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="auth-visual-content"><h2>Secure access starts with awareness.</h2><p>Manage your SecureKey service profile and residential access requests.</p></div>
+</div>
+
+<div class="auth-form-wrap">
+<div class="auth-logo"><a class="brand" href="#home1" data-route="home1"><span class="brand-mark"><i class="fa-solid fa-key"></i></span><span class="brand-text"><strong>SecureKey 24/7</strong><span>Residential Locksmith</span></span></a></div>
+
+<div class="auth-heading"><h1>Welcome back</h1><p>Sign in to view service requests and account details.</p></div>
+
+<button class="social-btn" type="button" data-demo-login>Continue with Google</button>
+<div class="divider">or sign in with email</div>
+
+<form class="auth-form" id="loginForm">
+<div class="field"><label for="loginEmail">Email address</label><input id="loginEmail" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+<div class="field"><label for="loginPassword">Password</label><div class="password-wrap"><input id="loginPassword" type="password" autocomplete="current-password" placeholder="Enter your password" required><button class="password-toggle" type="button" data-password="loginPassword"><i class="fa-solid fa-eye"></i></button></div></div>
+<div class="auth-row"><label class="remember"><input type="checkbox"> Remember me</label><a class="auth-link" href="#" id="forgotPassword">Forgot password?</a></div>
+<button class="btn btn-primary auth-submit" type="submit">Sign In</button>
+</form>
+
+<div class="auth-footer">Don't have an account? <a class="auth-link" href="#signup" data-route="signup">Create an account</a></div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- =========================================================
+SIGNUP
+========================================================= -->
+<section class="view" id="view-signup" data-view="signup">
+<div class="auth-page">
+<div class="container">
+<div class="auth-shell">
+
+<div class="auth-visual">
+<img src="https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=1500"
+data-fallback="https://images.pexels.com/photos/7522609/pexels-photo-7522609.jpeg?auto=compress&cs=tinysrgb&w=1500"
+alt="Modern smart residential door lock" onerror="this.onerror=null;this.src=this.dataset.fallback;">
+<div class="auth-visual-content"><h2>Plan your home's next security upgrade.</h2><p>Create an account to organize residential service requests.</p></div>
+</div>
+
+<div class="auth-form-wrap">
+<div class="auth-logo"><a class="brand" href="#home1" data-route="home1"><span class="brand-mark"><i class="fa-solid fa-key"></i></span><span class="brand-text"><strong>SecureKey 24/7</strong><span>Residential Locksmith</span></span></a></div>
+
+<div class="auth-heading"><h1>Create your account</h1><p>Save service details and make future residential requests easier.</p></div>
+
+<button class="social-btn" type="button" data-demo-login>Sign up with Google</button>
+<div class="divider">or create with email</div>
+
+<form class="auth-form" id="signupForm">
+<div class="field"><label for="signupName">Full name</label><input id="signupName" type="text" autocomplete="name" placeholder="Your full name" required></div>
+<div class="field"><label for="signupEmail">Email address</label><input id="signupEmail" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+<div class="field"><label for="signupPassword">Create password</label><div class="password-wrap"><input id="signupPassword" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters" required><button class="password-toggle" type="button" data-password="signupPassword"><i class="fa-solid fa-eye"></i></button></div></div>
+<div class="field"><label for="signupConfirm">Confirm password</label><input id="signupConfirm" type="password" autocomplete="new-password" minlength="8" placeholder="Repeat your password" required></div>
+<label class="remember"><input type="checkbox" id="termsCheck" required> I agree to the Terms and Privacy Policy.</label>
+<button class="btn btn-primary auth-submit" type="submit">Create Account</button>
+</form>
+
+<div class="auth-footer">Already have an account? <a class="auth-link" href="#login" data-route="login">Sign in</a></div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+</main>
+
+
+<footer>
+<div class="container">
+<div class="footer-grid">
+
+<div class="footer-brand">
+<a class="brand" href="#home1" data-route="home1">
+<span class="brand-mark"><i class="fa-solid fa-key"></i></span>
+<span class="brand-text"><strong style="color:#fff">SecureKey 24/7</strong><span>Residential Locksmith</span></span>
+</a>
+<p>Residential locksmith and smart lock upgrade service focused on reliable access, practical security solutions and clear homeowner communication.</p>
+<div class="footer-socials">
+<a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+<a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+<a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+</div>
+<div class="footer-emergency">24/7 Emergency: (800) 555-0199</div>
+</div>
+
+<div>
+<div class="footer-title">Navigation</div>
+<div class="footer-links">
+<a href="#home1" data-route="home1">Home 1</a>
+<a href="#home2" data-route="home2">Home 2</a>
+<a href="#services" data-route="services">Services</a>
+<a href="#pricing" data-route="pricing">Pricing Guide</a>
+</div>
+</div>
+
+<div>
+<div class="footer-title">Company</div>
+<div class="footer-links">
+<a href="#about" data-route="about">About SecureKey</a>
+<a href="#contact" data-route="contact">Contact</a>
+<a href="#login" data-route="login">Customer Login</a>
+<a href="#signup" data-route="signup">Create Account</a>
+</div>
+</div>
+
+<div>
+<div class="footer-title">Services</div>
+<div class="footer-links">
+<a href="#services" data-route="services">Lockout Response</a>
+<a href="#services" data-route="services">Lock Rekeying</a>
+<a href="#services" data-route="services">Smart Lock Installation</a>
+<a href="#services" data-route="services">Safe Opening</a>
+</div>
+</div>
+
+<div class="footer-newsletter">
+<div class="footer-title">Newsletter</div>
+<p style="color:#9eb1c3;font-size:11px;margin-bottom:12px;line-height:1.5">Subscribe for home security tips, smart lock guides & updates.</p>
+<form id="footerNewsletterForm" class="newsletter-form">
+<div class="newsletter-input-wrap">
+<input type="email" placeholder="Enter your email" required class="newsletter-input">
+<button type="submit" class="newsletter-btn" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+</div>
+</form>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<span>© <span id="year"></span> SecureKey 24/7. All rights reserved.</span>
+<span>Residential locksmith service website concept</span>
+</div>
+</div>
+</footer>
+
+
+<div class="modal" id="forgotModal" role="dialog" aria-modal="true">
+<div class="modal-card">
+<button class="modal-close" id="forgotClose" type="button"><i class="fa-solid fa-xmark"></i></button>
+<h2>Reset your password</h2>
+<p>Enter your email address and this demo will confirm that the reset request was received.</p>
+<form id="forgotForm" style="margin-top:19px">
+<div class="field"><label for="forgotEmail">Email address</label><input id="forgotEmail" type="email" placeholder="you@example.com" required></div>
+<button class="btn btn-primary" style="width:100%;margin-top:14px" type="submit">Send Reset Request</button>
+</form>
+</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(() => {
+"use strict";
+
+const routes=["home1","home2","services","pricing","about","contact","login","signup"];
+const views=[...document.querySelectorAll(".view")];
+const mobileMenu=document.getElementById("mobileMenu");
+const mobileToggle=document.getElementById("mobileToggle");
+const themeToggle=document.getElementById("themeToggle");
+const mobileThemeToggle=document.getElementById("mobileThemeToggle");
+const rtlToggle=document.getElementById("rtlToggle");
+const mobileRtlToggle=document.getElementById("mobileRtlToggle");
+const toast=document.getElementById("toast");
+
+function theme(){
+let saved=null;
+try{saved=localStorage.getItem("securekey-theme")}catch(e){}
+const mode=saved||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
+applyTheme(mode);
+}
+function applyTheme(mode){
+document.documentElement.classList.toggle("dark",mode==="dark");
+const icon=themeToggle?.querySelector("i");
+if(icon)icon.className=mode==="dark"?"fa-solid fa-sun":"fa-solid fa-moon";
+if(mobileThemeToggle)mobileThemeToggle.textContent=mode==="dark"?"☀ Light Theme":"☾ Dark Theme";
+try{localStorage.setItem("securekey-theme",mode)}catch(e){}
+}
+function toggleTheme(){
+const next=document.documentElement.classList.contains("dark")?"light":"dark";
+applyTheme(next);
+}
+theme();
+themeToggle?.addEventListener("click",toggleTheme);
+mobileThemeToggle?.addEventListener("click",()=>{toggleTheme();closeMenu()});
+function applyDirection(direction){
+const rtl=direction==="rtl";
+document.documentElement.dir=rtl?"rtl":"ltr";
+document.documentElement.classList.toggle("rtl",rtl);
+try{localStorage.setItem("securekey-direction",rtl?"rtl":"ltr")}catch(e){}
+if(rtlToggle){
+rtlToggle.setAttribute("aria-pressed",rtl);
+rtlToggle.textContent=rtl?"LTR":"RTL";
+rtlToggle.title=rtl?"LTR":"RTL";
+}
+if(mobileRtlToggle){
+mobileRtlToggle.setAttribute("aria-pressed",rtl);
+const label=mobileRtlToggle.querySelector("span");
+if(label)label.textContent=rtl?"LTR":"RTL";
+}
+}
+
+function initDirection(){
+let saved=null;
+try{saved=localStorage.getItem("securekey-direction")}catch(e){}
+applyDirection(saved==="rtl"?"rtl":"ltr");
+}
+
+function toggleDirection(){
+const next=document.documentElement.classList.contains("rtl")?"ltr":"rtl";
+applyDirection(next);
+showToast(next==="rtl"?"RTL layout enabled":"LTR layout enabled");
+}
+
+initDirection();
+rtlToggle?.addEventListener("click",toggleDirection);
+mobileRtlToggle?.addEventListener("click",()=>{toggleDirection();closeMenu()});
+
+
+function updateMenuPosition(){
+if(mobileMenu.classList.contains("open")){
+const headerEl=document.querySelector("header");
+if(headerEl){
+const rect=headerEl.getBoundingClientRect();
+mobileMenu.style.top=Math.max(0,rect.bottom)+"px";
+}
+}
+}
+function closeMenu(){
+mobileMenu.classList.remove("open");
+document.documentElement.classList.remove("menu-open");
+document.body.classList.remove("menu-open");
+document.body.style.overflow="";
+document.documentElement.style.overflow="";
+mobileToggle.setAttribute("aria-expanded","false");
+mobileToggle.innerHTML='<i class="fa-solid fa-bars"></i>';
+}
+mobileToggle.addEventListener("click",()=>{
+const open=mobileMenu.classList.toggle("open");
+document.documentElement.classList.toggle("menu-open",open);
+document.body.classList.toggle("menu-open",open);
+if(open){
+updateMenuPosition();
+document.body.style.overflow="hidden";
+document.documentElement.style.overflow="hidden";
+}else{
+document.body.style.overflow="";
+document.documentElement.style.overflow="";
+}
+mobileToggle.setAttribute("aria-expanded",open);
+mobileToggle.innerHTML=open?'<i class="fa-solid fa-xmark"></i>':'<i class="fa-solid fa-bars"></i>';
+});
+window.addEventListener("scroll",updateMenuPosition,{passive:true});
+window.addEventListener("resize",updateMenuPosition,{passive:true});
+
+function routeFromHash(){
+const r=location.hash.replace("#","").trim();
+return routes.includes(r)?r:"home1";
+}
+function showRoute(route,write=true){
+if(!routes.includes(route))route="home1";
+views.forEach(v=>v.classList.toggle("active",v.dataset.view===route));
+document.querySelectorAll("[data-route]").forEach(a=>a.classList.toggle("active",a.dataset.route===route));
+closeMenu();
+if(write)history.replaceState(null,"","#"+route);
+window.scrollTo({top:0,behavior:"auto"});
+}
+document.addEventListener("click",e=>{
+const link=e.target.closest("[data-route]");
+if(!link)return;
+const route=link.dataset.route;
+if(!routes.includes(route))return;
+e.preventDefault();
+showRoute(route);
+});
+window.addEventListener("hashchange",()=>showRoute(routeFromHash(),false));
+
+document.querySelectorAll("img[data-fallback]").forEach(img=>{
+img.addEventListener("error",()=>{
+if(img.dataset.fallback&&img.src!==img.dataset.fallback){
+img.src=img.dataset.fallback;
+}
+});
+});
+
+let toastTimer;
+function showToast(msg){
+toast.textContent=msg;
+toast.classList.add("show");
+clearTimeout(toastTimer);
+toastTimer=setTimeout(()=>toast.classList.remove("show"),3300);
+}
+
+document.getElementById("contactForm")?.addEventListener("submit",e=>{
+e.preventDefault();
+if(!e.currentTarget.checkValidity()){e.currentTarget.reportValidity();return}
+document.getElementById("contactSuccess").classList.add("show");
+e.currentTarget.reset();
+showToast("Service request submitted successfully.");
+});
+
+document.getElementById("footerNewsletterForm")?.addEventListener("submit",e=>{
+e.preventDefault();
+if(!e.currentTarget.checkValidity()){e.currentTarget.reportValidity();return}
+e.currentTarget.reset();
+showToast("Thank you for subscribing to our newsletter!");
+});
+
+document.getElementById("loginForm")?.addEventListener("submit",e=>{
+e.preventDefault();
+if(!e.currentTarget.checkValidity()){e.currentTarget.reportValidity();return}
+showToast("Demo sign-in successful.");
+});
+
+document.getElementById("signupForm")?.addEventListener("submit",e=>{
+e.preventDefault();
+if(!e.currentTarget.checkValidity()){e.currentTarget.reportValidity();return}
+const p=document.getElementById("signupPassword").value;
+const c=document.getElementById("signupConfirm").value;
+if(p!==c){showToast("Passwords do not match.");return}
+showToast("Demo account created successfully.");
+e.currentTarget.reset();
+});
+
+document.querySelectorAll("[data-demo-login]").forEach(b=>{
+b.addEventListener("click",()=>showToast("Google authentication is represented as a demo interaction."));
+});
+
+document.querySelectorAll("[data-password]").forEach(btn=>{
+btn.addEventListener("click",()=>{
+const input=document.getElementById(btn.dataset.password);
+const icon=btn.querySelector("i");
+if(input.type==="password"){
+input.type="text";
+icon.className="fa-solid fa-eye-slash";
+}else{
+input.type="password";
+icon.className="fa-solid fa-eye";
+}
+});
+});
+
+const modal=document.getElementById("forgotModal");
+document.getElementById("forgotPassword")?.addEventListener("click",e=>{
+e.preventDefault();
+modal.classList.add("show");
+document.body.classList.add("modal-open");
+document.getElementById("forgotEmail").focus();
+});
+function closeModal(){
+modal.classList.remove("show");
+document.body.classList.remove("modal-open");
+}
+document.getElementById("forgotClose")?.addEventListener("click",closeModal);
+modal?.addEventListener("click",e=>{if(e.target===modal)closeModal()});
+document.addEventListener("keydown",e=>{
+if(e.key==="Escape"){closeModal();closeMenu()}
+});
+document.getElementById("forgotForm")?.addEventListener("submit",e=>{
+e.preventDefault();
+if(!e.currentTarget.checkValidity()){e.currentTarget.reportValidity();return}
+closeModal();
+e.currentTarget.reset();
+showToast("Password reset request submitted.");
+});
+
+document.getElementById("year").textContent=new Date().getFullYear();
+
+showRoute(routeFromHash(),false);
+})();
+</script>
+
+</body>
+</html>
