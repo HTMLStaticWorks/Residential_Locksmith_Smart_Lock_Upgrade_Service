@@ -619,17 +619,35 @@
       border: 1px solid var(--border);
       border-radius: var(--radius);
       box-shadow: 0 8px 28px rgba(16, 24, 40, .045);
-      overflow: hidden
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      height: 100%
     }
 
     .card-body {
-      padding: 24px
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex: 1
+    }
+
+    .card-body h3 {
+      font-size: clamp(1.02rem, 1.25vw, 1.22rem);
+      line-height: 1.32;
+      letter-spacing: -.02em;
+      min-height: 2.65em;
+      display: flex;
+      align-items: flex-start;
+      margin: 0 0 10px 0;
+      color: var(--text)
     }
 
     .card p {
-      margin-top: 9px;
+      margin: 0;
       color: var(--muted);
-      font-size: 13px
+      font-size: 14px;
+      line-height: 1.6
     }
 
     .card-image {
@@ -715,23 +733,32 @@
     .steps {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 17px
+      gap: 17px;
+      align-items: stretch
     }
 
     .step {
       overflow: hidden;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 18px
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      height: 100%
     }
 
     .step img {
       aspect-ratio: 16/9;
-      object-fit: cover
+      object-fit: cover;
+      width: 100%;
+      display: block
     }
 
     .step-body {
-      padding: 20px
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1
     }
 
     .step-num {
@@ -744,13 +771,26 @@
       background: var(--primary);
       color: #fff;
       font-size: 12px;
-      font-weight: 800
+      font-weight: 800;
+      flex-shrink: 0
+    }
+
+    .step-body h3 {
+      font-size: clamp(1.02rem, 1.25vw, 1.2rem);
+      line-height: 1.32;
+      letter-spacing: -.02em;
+      min-height: 2.65em;
+      display: flex;
+      align-items: flex-start;
+      margin: 0 0 10px 0;
+      color: var(--text)
     }
 
     .step p {
-      margin-top: 8px;
+      margin: 0;
       color: var(--muted);
-      font-size: 12px
+      font-size: 14px;
+      line-height: 1.6
     }
 
     .image-band {
@@ -1033,36 +1073,59 @@
     .priority-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 18px
+      gap: 18px;
+      align-items: stretch
     }
 
     .priority {
       overflow: hidden;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 18px
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      height: 100%
     }
 
     .priority img {
       aspect-ratio: 16/9;
-      object-fit: cover
+      object-fit: cover;
+      width: 100%;
+      display: block
     }
 
     .priority-body {
-      padding: 21px
+      padding: 21px;
+      display: flex;
+      flex-direction: column;
+      flex: 1
     }
 
     .priority-number {
       font-family: Manrope;
       font-size: 29px;
       font-weight: 800;
-      color: var(--primary)
+      color: var(--primary);
+      margin-bottom: 10px;
+      flex-shrink: 0
+    }
+
+    .priority-body h3 {
+      font-size: clamp(1.05rem, 1.35vw, 1.25rem);
+      line-height: 1.32;
+      letter-spacing: -.02em;
+      min-height: 2.65em;
+      display: flex;
+      align-items: flex-start;
+      margin: 0 0 10px 0;
+      color: var(--text)
     }
 
     .priority p {
-      margin-top: 7px;
+      margin: 0;
       color: var(--muted);
-      font-size: 12px
+      font-size: 14px;
+      line-height: 1.6
     }
 
     .cta {
@@ -1126,58 +1189,87 @@
     .service-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 22px
+      gap: 22px;
+      align-items: stretch
     }
 
     .service {
       overflow: hidden;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 20px
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      height: 100%
     }
 
     .service img {
       aspect-ratio: 16/9;
-      object-fit: cover
+      object-fit: cover;
+      width: 100%;
+      display: block
     }
 
     .service-body {
       min-height: 205px;
       padding: 23px;
       display: flex;
-      flex-direction: column
+      flex-direction: column;
+      flex: 1
+    }
+
+    .service-body h3 {
+      font-size: clamp(1.05rem, 1.35vw, 1.25rem);
+      line-height: 1.32;
+      letter-spacing: -.02em;
+      min-height: 2.65em;
+      display: flex;
+      align-items: flex-start;
+      margin: 0 0 10px 0;
+      color: var(--text)
     }
 
     .service-body p {
-      margin-top: 8px;
+      margin: 0;
       color: var(--muted);
-      font-size: 13px
+      font-size: 14px;
+      line-height: 1.6
     }
 
     .service-body .text-link {
-      margin-top: auto
+      margin-top: auto;
+      padding-top: 12px
     }
 
     .process-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px
+      gap: 20px;
+      align-items: stretch
     }
 
     .process {
       overflow: hidden;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 18px
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      height: 100%
     }
 
     .process img {
       aspect-ratio: 16/9;
-      object-fit: cover
+      object-fit: cover;
+      width: 100%;
+      display: block
     }
 
     .process-body {
-      padding: 22px
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      flex: 1
     }
 
     .process-number {
@@ -1190,35 +1282,68 @@
       background: var(--primary);
       color: #fff;
       font-size: 12px;
-      font-weight: 800
+      font-weight: 800;
+      flex-shrink: 0
+    }
+
+    .process-body h3 {
+      font-size: clamp(1.05rem, 1.35vw, 1.25rem);
+      line-height: 1.32;
+      letter-spacing: -.02em;
+      min-height: 2.65em;
+      display: flex;
+      align-items: flex-start;
+      margin: 0 0 10px 0;
+      color: var(--text)
     }
 
     .process p {
-      margin-top: 7px;
+      margin: 0;
       color: var(--muted);
-      font-size: 13px
+      font-size: 15px;
+      line-height: 1.65
     }
 
     .price-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px
+      gap: 20px;
+      align-items: stretch
     }
 
     .price-card {
       overflow: hidden;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 20px
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      height: 100%
     }
 
     .price-card>img {
       aspect-ratio: 16/9;
-      object-fit: cover
+      object-fit: cover;
+      width: 100%;
+      display: block
     }
 
     .price-body {
-      padding: 25px
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      flex: 1
+    }
+
+    .price-body h3 {
+      font-size: clamp(1.05rem, 1.35vw, 1.25rem);
+      line-height: 1.32;
+      letter-spacing: -.02em;
+      min-height: 2.65em;
+      display: flex;
+      align-items: flex-start;
+      margin: 0 0 10px 0;
+      color: var(--text)
     }
 
     .price-card.featured {
@@ -1354,29 +1479,50 @@
     .principles {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px
+      gap: 20px;
+      align-items: stretch
     }
 
     .principle {
       overflow: hidden;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 18px
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      height: 100%
     }
 
     .principle img {
       aspect-ratio: 16/9;
-      object-fit: cover
+      object-fit: cover;
+      width: 100%;
+      display: block
     }
 
     .principle-body {
-      padding: 21px
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      flex: 1
+    }
+
+    .principle-body h3 {
+      font-size: clamp(1.05rem, 1.35vw, 1.25rem);
+      line-height: 1.32;
+      letter-spacing: -.02em;
+      min-height: 2.65em;
+      display: flex;
+      align-items: flex-start;
+      margin: 0 0 10px 0;
+      color: var(--text)
     }
 
     .principle p {
-      margin-top: 7px;
+      margin: 0;
       color: var(--muted);
-      font-size: 12px
+      font-size: 15px;
+      line-height: 1.65
     }
 
     .contact-layout {
@@ -1926,7 +2072,8 @@
         grid-template-columns: 1fr
       }
 
-      .grid-3 {
+      .grid-3,
+      .steps {
         grid-template-columns: repeat(2, 1fr)
       }
 
@@ -2086,6 +2233,16 @@
       .factor-grid,
       .stats {
         grid-template-columns: 1fr
+      }
+
+      .card-body h3,
+      .step-body h3,
+      .process-body h3,
+      .priority-body h3,
+      .principle-body h3,
+      .service-body h3,
+      .price-body h3 {
+        min-height: auto
       }
 
       .grid-3> :nth-child(3):last-child,
